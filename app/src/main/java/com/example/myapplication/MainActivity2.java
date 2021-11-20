@@ -169,7 +169,7 @@ public class MainActivity2 extends AppCompatActivity {
         protected Void doInBackground(Void... params) {
 
             try {
-                s = new Socket("192.168.1.7",4444); // ip address is of localhost because server is running on the same mschine
+                s = new Socket("My_IP_Address",4444); // ip address is of localhost because server is running on the same mschine
                 if (s.isConnected()) {
                     System.out.println("Connected");
                 }
